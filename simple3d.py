@@ -21,7 +21,7 @@ class OrbitTransformController(QObject):
         self._target = None
         self._matrix = QMatrix4x4()
         self._radius = 1
-        self._angle = 0
+        # self._angle = 0
 
     def setTarget(self, t):
         self._target = t
