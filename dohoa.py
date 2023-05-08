@@ -7,7 +7,7 @@ uiclass, baseclass = pg.Qt.loadUiType("embed1.ui")
 class MainWindow(uiclass, baseclass):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        #self.setupUi(self)
 
 
 app = QApplication(sys.argv)
