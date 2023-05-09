@@ -16,6 +16,7 @@ from PySide6.QtWidgets import (QApplication, QComboBox, QGroupBox, QHBoxLayout,
                                QSizePolicy, QSlider, QVBoxLayout, QWidget)
 45d6aa
 #sua lan 1
+#sua lan 2
 class OrbitTransformController(QObject):
     def __init__(self, parent):
         super().__init__(parent)
